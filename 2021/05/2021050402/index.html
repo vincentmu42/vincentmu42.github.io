@@ -20,19 +20,19 @@
     var CONFIG = {"hostname":"vincentmu42.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="华为USG6000系列防火墙的Console密码重置过程管理员账号&#x2F;密码遗忘导致无法登录设备时，可以将设备配置为空配置启动。设备启动后使用缺省管理员账号&#x2F;密码（admin&#x2F;Admin@123）登录设备，将配置文件导出并修改管理员密码，覆盖回设备上的配置文件，达到修改登录密码的效果。  操作步骤  通过Console口连接设备并重启设备。在设备启动过程中，看到提示信息“Press Ctrl+B to">
+  <meta name="description" content="【转载】博科交换机常用操作命令（一）光纤交换机常用操作命令，下面以博科(Brocade)的光纤交换机操作说明，IBM和HP的光纤交换机都是OEM博科的，操作命令类似。 uptime 显示交换机工作时间ipaddrshow 显示交换机IP地址信息licenseshow 显示当前交换机所添加的license信息switchshow 检查交换机信息及端口状态switchstatusshow 显示交换机的">
 <meta property="og:type" content="article">
-<meta property="og:title" content="华为USG6000系列防火墙的Console密码重置过程">
-<meta property="og:url" content="https://vincentmu42.github.io/2021/03/2021041401/index.html">
+<meta property="og:title" content="【转载】博科交换机常用操作命令（一）">
+<meta property="og:url" content="https://vincentmu42.github.io/2021/05/2021050402/index.html">
 <meta property="og:site_name" content="慕远的小站">
-<meta property="og:description" content="华为USG6000系列防火墙的Console密码重置过程管理员账号&#x2F;密码遗忘导致无法登录设备时，可以将设备配置为空配置启动。设备启动后使用缺省管理员账号&#x2F;密码（admin&#x2F;Admin@123）登录设备，将配置文件导出并修改管理员密码，覆盖回设备上的配置文件，达到修改登录密码的效果。  操作步骤  通过Console口连接设备并重启设备。在设备启动过程中，看到提示信息“Press Ctrl+B to">
+<meta property="og:description" content="【转载】博科交换机常用操作命令（一）光纤交换机常用操作命令，下面以博科(Brocade)的光纤交换机操作说明，IBM和HP的光纤交换机都是OEM博科的，操作命令类似。 uptime 显示交换机工作时间ipaddrshow 显示交换机IP地址信息licenseshow 显示当前交换机所添加的license信息switchshow 检查交换机信息及端口状态switchstatusshow 显示交换机的">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-03-31T11:46:07.000Z">
-<meta property="article:modified_time" content="2021-04-14T02:03:16.204Z">
+<meta property="article:published_time" content="2021-05-04T11:38:30.000Z">
+<meta property="article:modified_time" content="2021-05-04T11:39:56.434Z">
 <meta property="article:author" content="Vincent慕远">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="https://vincentmu42.github.io/2021/03/2021041401/">
+<link rel="canonical" href="https://vincentmu42.github.io/2021/05/2021050402/">
 
 
 <script id="page-configurations">
@@ -45,7 +45,7 @@
   };
 </script>
 
-  <title>华为USG6000系列防火墙的Console密码重置过程 | 慕远的小站</title>
+  <title>【转载】博科交换机常用操作命令（一） | 慕远的小站</title>
   
 
 
@@ -150,7 +150,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://vincentmu42.github.io/2021/03/2021041401/">
+    <link itemprop="mainEntityOfPage" href="https://vincentmu42.github.io/2021/05/2021050402/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -163,7 +163,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          华为USG6000系列防火墙的Console密码重置过程
+          【转载】博科交换机常用操作命令（一）
         </h1>
 
         <div class="post-meta">
@@ -172,16 +172,10 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2021-03-31 19:46:07" itemprop="dateCreated datePublished" datetime="2021-03-31T19:46:07+08:00">2021-03-31</time>
+              <time title="创建时间：2021-05-04 19:38:30 / 修改时间：19:39:56" itemprop="dateCreated datePublished" datetime="2021-05-04T19:38:30+08:00">2021-05-04</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-04-14 10:03:16" itemprop="dateModified" datetime="2021-04-14T10:03:16+08:00">2021-04-14</time>
-              </span>
 
           
 
@@ -194,30 +188,25 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="华为USG6000系列防火墙的Console密码重置过程"><a href="#华为USG6000系列防火墙的Console密码重置过程" class="headerlink" title="华为USG6000系列防火墙的Console密码重置过程"></a>华为USG6000系列防火墙的Console密码重置过程</h2><p>管理员账号/密码遗忘导致无法登录设备时，可以将设备配置为空配置启动。设备启动后使用缺省管理员账号/密码（admin/Admin@123）登录设备，将配置文件导出并修改管理员密码，覆盖回设备上的配置文件，达到修改登录密码的效果。</p>
-<ul>
-<li><h4 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h4></li>
-</ul>
-<p>通过Console口连接设备并重启设备。在设备启动过程中，看到提示信息“<code>Press Ctrl+B to Enter Main Menu...3</code>”时按下Ctrl+B，输入“BootROM”的密码后，进入BootROM主菜单，按后续步骤将设备配置为“空配置启动”。</p>
-<p>说明：<strong>缺省的BootROM密码为</strong><code>O&amp;m15213</code>，如果使用缺省值登录后，为了提高安全性，也可以在进入BootROM主菜单后选择5进行修改。<strong>密码修改后请妥善保管以免丢失！！</strong>或者<strong>也可以跳过此步骤暂不修改bootrom密码！！</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">Press Ctrl+B to Enter Main Menu...3</span><br><span class="line">Password: ********</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 修改bootrom密码选择（可以跳过此步骤暂不修改）</span><br><span class="line"> | &lt;5&gt; Modify Bootrom Password</span><br><span class="line"> |     Enter your choice(0-6): 5</span><br><span class="line">Change Password.Old Password: ********</span><br><span class="line">New Password: *********</span><br><span class="line">Confirm Password: *********</span><br><span class="line">Save new password ... Done.</span><br></pre></td></tr></table></figure>
-
-<p>设置使用默认配置启动：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">| &lt;2&gt; Set Startup Application Software and Configuration   |</span><br><span class="line">Enter your choice(0-6): 2   &#x2F;&#x2F;此处选择2，进入设置启动文件和配置文件的子菜单。</span><br><span class="line">Current boot application software: hda1:&#x2F;sup.bin</span><br><span class="line">Current boot configuration: hda1:&#x2F;vrpcfg.zip</span><br><span class="line">&lt;1&gt; Modify setting</span><br><span class="line">&lt;0&gt; Quit</span><br><span class="line">Enter your choice (0-1): 1   &#x2F;&#x2F;此处选择1，进入修改配置子菜单。</span><br><span class="line"></span><br><span class="line">Input the name of application software(eg: hda1:&#x2F;sup.bin):</span><br><span class="line">Input the name of configuration or &#39;.&#39; to clear setting(eg: hda1:&#x2F;vrpcfg.zip): . &#x2F;&#x2F;此处输入“.”来将下次启动配置改为空配置。</span><br><span class="line"></span><br><span class="line">Modifed configuration successful.</span><br><span class="line">Next boot configuration: NULL</span><br><span class="line"></span><br><span class="line">| &lt;1&gt; Boot System     |</span><br><span class="line">Enter your choice(0-6): 1   &#x2F;&#x2F;此处选择1引导系统启动。</span><br></pre></td></tr></table></figure>
-
-
-<p>2、通过设备GE0/MGMT接口登录Web UI界面，默认IP地址为“<a target="_blank" rel="noopener" href="https://192.168.0.1:8443/%E2%80%9D%E7%99%BB%E5%BD%95%E7%94%A8%E6%88%B7%E5%90%8D%E3%80%81%E5%AF%86%E7%A0%81%E4%B8%BAadmin%E3%80%81Admin@123">https://192.168.0.1:8443/”登录用户名、密码为admin、Admin@123</a></p>
-<p>3、选择 “系统 &gt; 配置文件管理”，单击 “下次启动配置文件” 所在行的 “选择”。在 “配置文件管理” 页签中，<strong>导出</strong>最近一次保存的配置文件。</p>
-<p>4、<strong>在PC上使用文本编辑工具修改配置文件中的管理员密码</strong>。此处以修改管理员admin的密码为Admin@1234为例进行说明。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">manager-user admin</span><br><span class="line"> password cipher Admin@1234</span><br><span class="line"> service-type web terminal </span><br><span class="line"> level 15 </span><br><span class="line"> ftp-directory hda1: </span><br><span class="line"> ssh authentication-type password</span><br><span class="line"> ssh service-type stelnet</span><br></pre></td></tr></table></figure>
-
-<p>5、将修改后的配置文件<strong>上传回设备</strong>，并<strong>设置为下次启动配置文件</strong>。</p>
-<p>6、选择“系统 &gt; 配置 &gt; 系统重启”，单击“重启”，重启设备。</p>
-<p>7、设备完成启动后，就可以使用新的用户名admin和密码Admin@1234登录，且配置也恢复为最近保存的配置。</p>
-<ul>
-<li><h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4></li>
-</ul>
-<p>连接console口的时候，ssh软件的流控必须设置为“None”或者“无”。不然ctrl+b无法中断启动。设备会继续启动。<br>注意上述第6步中，选择 “系统 &gt; 配置 &gt; 系统重启”，单击 “重启”，重启设备。重启的时候<strong>不要保存设置</strong>。直接进行重启操作。</p>
+        <h2 id="【转载】博科交换机常用操作命令（一）"><a href="#【转载】博科交换机常用操作命令（一）" class="headerlink" title="【转载】博科交换机常用操作命令（一）"></a>【转载】博科交换机常用操作命令（一）</h2><p>光纤交换机常用操作命令，下面以博科(Brocade)的光纤交换机操作说明，IBM和HP的光纤交换机都是OEM博科的，操作命令类似。</p>
+<p>uptime 显示交换机工作时间<br>ipaddrshow 显示交换机IP地址信息<br>licenseshow 显示当前交换机所添加的license信息<br>switchshow 检查交换机信息及端口状态<br>switchstatusshow 显示交换机的运行状态<br>firmwareshow 显示微码版本<br>fanshow 显示风扇运行状态<br>tempshow 显示交换机当前温度信息<br>psshow 显示电源运行状态<br>slotshow 显示板卡运行状态<br>hashshow 显示CP版卡HA状态,<br>errdump 显示错误日志<br>fabricshow 显示fabric信息及级联信息<br>cfgshow 显示交换机配置信息<br>porterrshow 显示交换机端口的错误统计<br>chassisshow 显示外壳信息及序列号<br>version 相看版本<br>userconfig –show -a 查看登录帐号<br>domainsshow 查看交换机的domain信息<br>aliashow 查看别名<br>chassisshow 显示chassis和WWN卡的状态<br>historyshow/historylastshow 显示历史日志消息</p>
+<p>级联互ping:fcping –number 10000 –length 2036 –interval 1 10:00:00:05:33:9f:06:28<br>级联更改portcfglongdistance 0</p>
+<p>备份<br>configuplocad<br>Protocol (scp or ftp):ftp<br>host:<br>user name:<br>filename:<br>password:</p>
+<p>恢复<br>switchdisable 停用交换机<br>configdownload<br>Protocol (scp or ftp):ftp<br>Server Name or IP Address [host]:<br>User Name [user]:<br>File Name [config.txt]:config.txt<br>………<br>Do you want to continue [y/n]:y<br>Password:</p>
+<p>设置IP<br>ipaddrset<br>Ethernet IP Address [10.77.77.77]:<br>Ethernet Subnetmask [255.255.255.0]:<br>Fibre Channel IP Address [none]:<br>Fibre Channel Subnetmask [none]:<br>Gataway IP Address []:<br>DHCP [On]</p>
+<p>Zone配置示例：</p>
+<p>创建别名<br>alicreate “member1”,”1,1;1,2;1,3”<br>alicreate “member2”,”1,2;1,3;1,4”<br>alicreate “member3”,”1,3;1,4;1,5”<br>alishow<br>cfgsave</p>
+<p>新建zone并添加端口<br>zonecreate “zone1”,”member1;member2”<br>zonecreate “zone2”,”1,1;1,7”<br>zonecreate “zone2”,”member3;1,8”<br>zoneshow<br>cfgsave</p>
+<p>添加zone<br>zoneadd “zone1” “test1; test2”</p>
+<p>新建配置并添加zone<br>cfgcreate “conf1”,”zone1;zone2;zone3”<br>cfgshow<br>cfgsave</p>
+<p>添加zone至配置<br>cfgadd “conf1”, “zone4; zone5; zone6”<br>cfgsave<br>cfgshow</p>
+<p>启用配置<br>cfgenable conf1</p>
+<p>存储配置<br>cfgsave</p>
+<p>alias别名</p>
+<p>alicreate “port01”,”0,1”</p>
+<p>删除cfg<br>IBM_2005_H16:admin&gt; cfgremove “H16_cfg”,”vmtest”<br>IBM_2005_H16:admin&gt; cfgsave<br>IBM_2005_H16:admin&gt; cfgenable H16_cfg<br>删除zone<br>IBM_2005_H16:admin&gt; zonedelete vmtest<br>删除ali</p>
+<hr>
+<p><strong>原文链接</strong>：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/xweiqing/p/9075323.html">https://www.cnblogs.com/xweiqing/p/9075323.html</a></p>
 
     </div>
 
@@ -233,12 +222,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2021/03/windows-isos/" rel="prev" title="常用Windows系统安装镜像">
-      <i class="fa fa-chevron-left"></i> 常用Windows系统安装镜像
+    <a href="/2021/05/2021050401/" rel="prev" title="Juniper路由器开启snmp以及启用Netflow采集配置指南">
+      <i class="fa fa-chevron-left"></i> Juniper路由器开启snmp以及启用Netflow采集配置指南
     </a></div>
       <div class="post-nav-item">
-    <a href="/2021/03/h3c-sw-irf/" rel="next" title="H3C交换机配置堆叠(IRF)">
-      H3C交换机配置堆叠(IRF) <i class="fa fa-chevron-right"></i>
+    <a href="/2021/05/2021050403/" rel="next" title="【转载】博科交换机常用操作命令（二）">
+      【转载】博科交换机常用操作命令（二） <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -298,7 +287,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8D%8E%E4%B8%BAUSG6000%E7%B3%BB%E5%88%97%E9%98%B2%E7%81%AB%E5%A2%99%E7%9A%84Console%E5%AF%86%E7%A0%81%E9%87%8D%E7%BD%AE%E8%BF%87%E7%A8%8B"><span class="nav-number">1.</span> <span class="nav-text">华为USG6000系列防火墙的Console密码重置过程</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%AA%A4"><span class="nav-number">1.0.1.</span> <span class="nav-text">操作步骤</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="nav-number">1.0.2.</span> <span class="nav-text">注意事项</span></a></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E3%80%90%E8%BD%AC%E8%BD%BD%E3%80%91%E5%8D%9A%E7%A7%91%E4%BA%A4%E6%8D%A2%E6%9C%BA%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4%EF%BC%88%E4%B8%80%EF%BC%89"><span class="nav-number">1.</span> <span class="nav-text">【转载】博科交换机常用操作命令（一）</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
